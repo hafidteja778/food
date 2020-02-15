@@ -117,7 +117,6 @@ echo " ===========================\n";
         curl_close($ch);
         $debug['text'] = $pesan;
         $debug['respon'] = json_decode($datas, true);
-        
         }
         }else{
         echo color("red","-] Otp yang anda input salah");
