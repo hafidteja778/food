@@ -117,3 +117,5 @@ echo " ===========================\n";
         curl_close($ch);
         $debug['text'] = $pesan;
         $debug['respon'] = json_decode($datas, true);
+
+        // echo change()."\n";
