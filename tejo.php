@@ -4,10 +4,10 @@ include "function.php";
 echo color("blue"," ===========================\n");
 echo color("green","| LOSS GAK REWEL |\n");
 echo color("green","| Auto CLAIM |\n");
-echo color("green","| Github: TEDJO GANTENG |\n");
-echo color("green","| Fanspage :TEDJO GANTENG|\n");
-echo color("green","| Creator : TEDJOGANTENG.com          |\n");
-echo "| Version : TEDJO GANTENG      |\n";
+echo color("green","| Github: HAFID TEJA |\n");
+echo color("green","| Fanspage :HAFIDTEJA|\n");
+echo color("green","| Creator : HAFIDTEJA.com          |\n");
+echo "| Version : 2020      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
 
