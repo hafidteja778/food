@@ -121,7 +121,6 @@ echo " ===========================\n";
         
         
         
-        }else{
         echo color("red","-] Otp yang anda input salah");
         echo"\n==================================\n\n";
         echo color("yellow","!] Silahkan input kembali\n");
