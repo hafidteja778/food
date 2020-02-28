@@ -65,8 +65,9 @@ echo " ===========================\n";
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
+        sleep(1);
+        }
         sleep(3);
-        
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
         $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
